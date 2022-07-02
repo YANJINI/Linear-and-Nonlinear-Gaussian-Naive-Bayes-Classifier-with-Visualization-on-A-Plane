@@ -17,27 +17,30 @@ When the assumption about variances given label is violated, the decision bounda
 
 ![nonlinear_GNB](/images/nonlinear_GNB.gif) <br />
 
+## Mathematical Background
+### Naive Bayes Assumption
+
+### linear Naive Bayes Assumption
 
 ## Setup
 
 ### git clone
 git clone to have this repository on your local machine as follows.
 ```ruby
-git clone git@github.com:YANJINI/Single-Perceptron-and-Naive-Bayes-Classifier-with-Visualization-on-A-Plane.git
+git clone git@github.com:YANJINI/Linear-and-Nonlinear-Gaussian-Naive-Bayes-Classifier-with-Visualization-on-A-Plane.git
 ```
 
 ### path control
-To import modules written in this repository on your local macine, you need control path to this clone, which could be done as below. (Mac OS)
+To import modules written in this repository on your local macine, you need control path to this clone, which could be done as below.
 ```ruby
 import sys
-sys.path.extend(['/Users/jinijani/PycharmProjects/Practice/git_project/Single-Perceptron-and-Gaussian-Naive-Bayes-Classifier-with-Visualization-on-A-Plane'])
+sys.path.extend(['/path_to_this_git_clone/Linear-and-Nonlinear-Gaussian-Naive-Bayes-Classifier-with-Visualization-on-A-Plane'])
 ```
 
 ### import 
 Import these two classifiers in another py project as below.
 ```ruby
-from Perceptron import twoD_coordinates_Perceptron
-from NaiveBayes import twoD_coordinates_GNB
+from GaussianNaiveBayes import twoD_coordinates_GNB
 ```
 
 ### Others
