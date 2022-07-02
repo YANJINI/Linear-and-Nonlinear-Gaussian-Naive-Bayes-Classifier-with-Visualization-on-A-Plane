@@ -6,18 +6,9 @@ From an inspiration by [Naive Bayes demo](https://youtu.be/rqB0XWoMreU?t=2498) o
 
 ## How it works
 ### Linear Gaussian Naive Bayes Classifier
-
-on the figure that pops up, you click to plot from class 1 and 2 as follows. <br />
-
-![click to plot from class 1](/images/click%20to%20plot%20from%20class%201.gif)
-
-Press enter to switch to plotting from class 2. <br />
-![click to plot from class 2](/images/click%20to%20plot%20from%20class%202.gif)
-
-Press enter to see Naive Bayes decision boundry <br />
+When each of those decomposed one-dimension feature distributions, $P(x_{i} | y)$ follows Gaussian distribution and their variances are assumed to be the same across all labels (in this case when y=1 and y=-1), we can derive the closed form of a line that represents 50:50 case of falling into the two labels. In other words, Gaussian Naive Bayes classifier's decision boundary is linear in this case.
 
 ![linear_GNB](/images/linear_GNB.gif) <br />
-When each of those decomposed one-dimension feature distributions, $P(x_{i} | y)$ follows Gaussian distribution and their variances are assumed to be the same across all labels (in this case when y=1 and y=-1), we can derive the closed form of a line that represents 50:50 case of falling into the two labels. In other words, Gaussian Naive Bayes classifier's decision boundary is linear in this case. <br />
 <br />
 <br />
 
