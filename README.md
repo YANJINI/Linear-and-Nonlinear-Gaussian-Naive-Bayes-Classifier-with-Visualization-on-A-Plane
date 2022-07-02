@@ -9,7 +9,7 @@ From an inspiration by [Naive Bayes demo](https://youtu.be/rqB0XWoMreU?t=2498) o
 When each of those decomposed one-dimension feature distributions, $P(x_{i} | y)$ follows Gaussian distribution and their variances are assumed to be the same across all labels (in this case when y=1 and y=-1), we can derive the closed form of a line that represents 50:50 case of falling into the two labels. In other words, Gaussian Naive Bayes classifier's decision boundary is linear in this case.
 
 ![linear_GNB](/images/linear_GNB.gif) <br />
-Here, the contours show multivariate Gaussian distribution with $cov(x_{1}, x_{2})=0$ for each $P(x_{i} | y)$ and decision boundry is linear. <br />
+Here, the contours show multivariate Gaussian distribution with $cov(x_{1}, x_{2})=0$ for each $P(X | y)$ and decision boundry is linear. <br />
 Note that these two multivariate Gaussian distribution have the same shape but with different locations, which means variances of $x_{1}$ and $x_{2}$ given same label y have the same value. 
 <br />
 <br />
