@@ -16,7 +16,7 @@ Note that these two multivariate Gaussian distribution have the same shape but w
 
 ### Non-linear Gaussian Naive Bayes Classifier
 When the assumption about variances given label is violated, the decision boundary is not linear and there is no closed form of this. <br />
-Also, note that these two multivariate Gaussian distribution have different shapes at all. It means variances of $x_{1}$ and $x_{2}$ given same label y are different one another. 
+Also, note that these two multivariate Gaussian distribution have different shapes at all. It means variances of $x_{1}$ and $x_{2}$ given same label y are different one another. As shown the green decision boundry is non-linear.
 
 ![nonlinear_GNB](/images/nonlinear_GNB.gif) <br />
 
