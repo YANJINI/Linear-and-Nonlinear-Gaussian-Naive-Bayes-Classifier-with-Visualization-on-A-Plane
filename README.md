@@ -20,15 +20,6 @@ Also, note that these two multivariate Gaussian distribution have different shap
 
 ![nonlinear_GNB](/images/nonlinear_GNB.gif) <br />
 
-## Mathematical Background
-### Naive Bayes Assumption
-In a classification probelm what we ultimately want to know is $P(y | X)$ (label given data). Bayessian firstly makes this problem $\frac{P(y)*P(X | y)}{P(X)}$ and here Naive Bayes assumption comes in. Based on Naive Bayes assumption, distribution of each feature $x_{i}$ given label, $P(x_{i} | y)$ is independent across all n features, which means $P(X | y) = P(x_{1} \cap ... \cap x_n | y) = P(x_1 | y)*...P(x_n | y)$. <br />
-
-Decision boundry in this case could be plotted by finding $(x_{1}, x_{2})$ coordinates satisfying $\frac{P(y=1 | X}{P(y=-1 | X} = 1$ <br />
-
-By Naive Bayes assumption, the equation above can be converted to $\frac{P(y=1) * P(x_{1} | y=1) * P(x_{2} | y=1)}{P(y=-1) * P(x_{1} | y=-1) * P(x_{2} | y=-1)}. 
-### linear Naive Bayes Assumption
-
 ## Setup
 
 ### git clone
