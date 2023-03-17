@@ -6,7 +6,7 @@ From an inspiration by [Naive Bayes demo](https://youtu.be/rqB0XWoMreU?t=2498) o
 
 ## How it works
 ### Linear Gaussian Naive Bayes Classifier
-When each of those decomposed one-dimension feature distributions, $P(x_{i} | y)$ follows Gaussian distribution and their variances are assumed to be the same across all labels (in this case when y=1 and y=-1), we can derive the closed form of a line that represents 50:50 case of falling into the two labels. In other words, Gaussian Naive Bayes classifier's decision boundary is linear in this case.
+When each of those decomposed one-dimension feature distributions, $P(x_{i} | y)$, follows Gaussian distribution and their variances are assumed to be the same across all labels (in this case when y=1 and y=-1), we can derive the closed form of a line that represents 50:50 case of falling into the two labels. In other words, Gaussian Naive Bayes classifier's decision boundary is linear in this case.
 
 ![linear_GNB](/images/linear_GNB.gif) <br />
 
